@@ -1,0 +1,19 @@
+header {
+	background: linear-gradient(to right, pink, white);
+}
+
+header h2 {
+	color: purple;
+	font-family: arial;
+	font-size: 35px;
+	margin: 0px;
+}
+nav {
+	text-align: right;
+	font-family: arial;
+	color: purple;
+}
+
+nav a {
+	padding-right: 10px;
+}
