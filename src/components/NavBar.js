@@ -1,15 +1,16 @@
-function Header () {
-	return (<header>
-				<h2>"KPOP STORE"</h2>
-				<nav>
-					<a href="#" className="paddingLinks">Home</a>
-					<a href="#" className="paddingLinks">Productos</a>
-					<a href="#" className="paddingLinks">Grupos</a>
-					<a href="#" className="paddingLinks">Noticias</a>
-					<a href="#" className="paddingLinks">Contacto</a>
-				</nav>
-			</header>
-	);
-};
+import CartWidget from "./CartWidget.js";
 
-export default Header;
+function NavBar () {
+	return (
+		<nav>
+			<a href="#" className="paddingLinks">Home</a>
+			<a href="#" className="paddingLinks">Productos</a>
+			<a href="#" className="paddingLinks">Grupos</a>
+			<a href="#" className="paddingLinks">Noticias</a>
+			<a href="#" className="paddingLinks">Contacto</a>
+			<a href="#" className="paddingLinks"><CartWidget/></a>
+		</nav>		
+	)
+}
+
+export default NavBar;

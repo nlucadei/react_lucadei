@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NavBar from "./components/NavBar.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from "./components/App.js";
 import "./estilo.css";
 
-function App () {
-	return (
-		<NavBar/>
-		);
-};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

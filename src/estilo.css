@@ -17,3 +17,11 @@ nav {
 nav a {
 	padding-right: 10px;
 }
+
+.estiloCard {
+	width: 20rem;
+	padding: 5px;
+	color: blue;
+	font-family: arial;
+	text-align: center;
+}
