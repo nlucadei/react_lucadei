@@ -25,3 +25,28 @@ nav a {
 	font-family: arial;
 	text-align: center;
 }
+
+.estiloCardProductos {
+	width: 35rem;
+	padding: 5px;
+	color: purple;
+	border-radius: 20px; 
+	font-family: arial;
+	text-align: center; 
+	flex-direction: row;
+	border-width: 4px;
+	margin: 5px;
+}
+
+.estiloCardImagen {
+	height: 200px;
+}
+
+.botonContador {
+	color: purple;
+	font-family: arial;
+	border-radius: 15px;
+	background-color: pink;
+	border: purple;
+}
+

@@ -14,20 +14,21 @@ const ItemCount = ({stock, initial, onAdd}) => {
 
 	const confirmarContador = () => {
 		if (contador >=initial && contador <=stock) {
-			alert ("Se ha agregado " + contador + " producto(s) al carrito.")
+			alert ("Se ha agregado " + contador + " producto(s) al carrito.");
+			onAdd(contador);
 		} else {
 			alert ("Error.")
-		}
+		 }
 	}
 
 	return (
 		<div>
-			<p>El contador va: {contador}</p>
-			<button onClick={aumentarContador} >Aumentar</button>
-			<button onClick={bajarContador} >Disminuir</button>
-			<button onClick={confirmarContador} >Confirmar</button>
+			<p>Unidades: {contador}</p>
+			<button onClick={aumentarContador} className="botonContador">Aumentar</button>
+			<button onClick={bajarContador} className="botonContador">Disminuir</button>
+			<button onClick={confirmarContador} className="botonContador">Confirmar</button>
 		</div>
 	)
 }
 
-export default ItemCount
+export default ItemCount;
