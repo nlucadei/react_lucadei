@@ -1,19 +1,14 @@
 import {Card, Container, Row, Col} from "react-bootstrap";
-import Item from "./Item";
 import ItemCount from "./ItemCount";
-import productos from "../utils/productos.js";
 
-function ItemDetail ({item}) {
+function ItemDetail ({id, name, image, description, precio, stock, initial}) {
 	return (
 		<Card bg="light" border="primary" className="estiloCardDetail">
-			<Card.Img src={item.image} className="estiloCardImagenDetail"/>
+			<Card.Img src={image} className="estiloCardImagenDetail"/>
 			<Card.Body>
-				<Card.Title>{item.name}</Card.Title>
-				<Card.Text>{item.description}</Card.Text>
-				<Card.Text>{item.precio}</Card.Text>
-			</Card.Body>
-			<Card.Body>
-				<Card.Text><ItemCount stock={item.stock} initial={item.initial} /></Card.Text>
+				<Card.Title>{name}</Card.Title>
+				<Card.Text>{description}</Card.Text>
+				<Card.Text>{precio}</Card.Text>
 			</Card.Body>
 		</Card>
 	)
