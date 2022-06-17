@@ -42,6 +42,22 @@ nav a {
 	height: 200px;
 }
 
+.estiloCardDetail {
+	width: 50rem;
+	padding: 5px;
+	color: purple;
+	border-radius: 20px; 
+	font-family: arial;
+	text-align: center; 
+	flex-direction: row;
+	border-width: 4px;
+	margin: 5px;
+}
+
+.estiloCardImagenDetail {
+	height: 400px;
+}
+
 .botonContador {
 	color: purple;
 	font-family: arial;

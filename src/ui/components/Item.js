@@ -8,7 +8,6 @@ function Item ({id, name, image, description, precio, stock, initial}) {
 			<Card.Img src={image} className="estiloCardImagen"/>
 			<Card.Body>
 				<Card.Title>{name}</Card.Title>
-				<Card.Text>{description}</Card.Text>
 				<Card.Text>{precio}</Card.Text>
 			</Card.Body>
 			<Card.Body>
