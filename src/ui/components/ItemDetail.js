@@ -10,6 +10,9 @@ function ItemDetail ({id, name, image, description, precio, stock, initial}) {
 				<Card.Text>{description}</Card.Text>
 				<Card.Text>{precio}</Card.Text>
 			</Card.Body>
+			<Card.Body>
+				<Card.Text><ItemCount stock={stock}/></Card.Text>
+			</Card.Body>
 		</Card>
 	)
 }

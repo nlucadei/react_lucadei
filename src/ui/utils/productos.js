@@ -6,7 +6,8 @@ const productos = [
 		description: "Llaveros BT21. 10cm.",
 		precio: "$500",
 		initial: 1,
-		stock: 6
+		stock: 6,
+		categoryId: "miscelaneos"
 	},
 	{
 		id: 2,
@@ -15,7 +16,8 @@ const productos = [
 		description: "Remera de algodón de Kard. Talles XS/S/M/L/XL.",
 		precio: "$1.500",
 		initial: 1,
-		stock: 8
+		stock: 8,
+		categoryId: "vestimenta"
 	},
 	{
 		id: 3,
@@ -24,7 +26,18 @@ const productos = [
 		description: "Buzo unisex de frisa de Stray Kids. Talles XS/S/M/L/XL.",
 		precio: "$3.500",
 		initial: 1,
-		stock: 4
+		stock: 4,
+		categoryId: "vestimenta"
+	},
+	{
+		id: 4,
+		name: "TXT",
+		image: "/assets/img/prod_txt.png",
+		description: "CD Tomorrow by Together: The Dream Chapter, Eternity.",
+		precio: "$5.500",
+		initial: 1,
+		stock: 12,
+		categoryId: "discos"
 	}
 ]
 

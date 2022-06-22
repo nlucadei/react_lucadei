@@ -18,6 +18,10 @@ nav a {
 	padding-right: 10px;
 }
 
+.estiloNavbar {
+	flex-direction: row;
+}
+
 .estiloCard {
 	width: 20rem;
 	padding: 5px;
