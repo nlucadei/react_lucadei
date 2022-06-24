@@ -11,7 +11,7 @@ function ItemDetailContainer (props) {
 	}, [item])
 
 	return (
-		<ItemDetail  name={"TXT"} image={"/assets/img/prod_txt.png"} description={"CD Tomorrow by Together: The Dream Chapter, Eternity."} precio={"Precio: $5.500"} />
+		<ItemDetail  id={4} name={"TXT"} image={"/assets/img/prod_txt.png"} description={"CD Tomorrow by Together: The Dream Chapter, Eternity."} precio={"Precio: $5.500"} stock={15} initial={1}/>
 	)
 }
 
